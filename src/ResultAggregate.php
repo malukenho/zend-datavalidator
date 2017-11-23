@@ -7,6 +7,8 @@
 
 namespace Zend\DataValidator;
 
+use Zend\DataValidator\Exception\MissingResultsException;
+
 /**
  * Aggregate of `ResultInterface` instances, generally produced by a validation chain.
  */
